@@ -1,0 +1,786 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* fonts are linked here  */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    /* overflow: hidden; */
+}
+
+.common-p {
+    color: #5a5a5d;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.primary-btn {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: #ff5400;
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+/* header area css start here  */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo-text-header a {
+    text-decoration: none;
+}
+
+.logo-text-header a h1 {
+    font-size: 800;
+    text-transform: capitalize;
+    color: #131318;
+    font-size: 36px;
+}
+.logo-text-header a h1 span{
+    color: #ff5400;
+}
+.header-menu a {
+    text-decoration: none;
+}
+
+.header-menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 44px;
+}
+
+.header-menu ul li {
+    list-style: none;
+}
+
+.header-menu ul li a {
+    color: rgba(19, 19, 24, 0.70);
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.2s;
+}
+
+.header-menu ul li a:hover {
+    color: #ff5400;
+}
+
+/* header area css end here  */
+
+/* banner area css start here  */
+/* .banner{
+    position: relative;
+} */
+.banner-area {
+    margin-bottom: 100px;
+}
+
+.banner-image {
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/banner.png);
+}
+
+
+.banner-text h1 {
+    color: #fff;
+    font-size: 64px;
+    text-transform: capitalize;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.banner-text>p {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 48px;
+    padding-top: 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form-area {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.form-area input {
+    color: rgba(19, 19, 24, 0.50);
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    width: 174px;
+    height: 52px;
+    padding-left: 12px;
+}
+
+.form-area select {
+    color: rgba(19, 19, 24, 0.50);
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    width: 174px;
+    height: 52px;
+    padding-left: 12px;
+    text-transform: capitalize;
+}
+
+.form-area button {
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    width: 174px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+    background-color: #ff5400;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+/* banner area css end here  */
+
+
+/* popular area css start here  */
+.popular {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+.popular-left{
+    width: 50%;
+}
+.popular-left h1 {
+    color: #131318;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.popular-left ul {
+    padding: 20px 34px;
+}
+
+.popular-left ul li {
+    padding-bottom: 8px;
+}
+
+.popular-left button {
+    margin-top: 40px;
+}
+
+.div-right img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+/* popular area css end here  */
+
+
+/* choose  area css start here  */
+.choose-header {
+    text-align: center;
+}
+
+.choose-header h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+.choose-header p {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.choose-image-sec{
+    display: grid;
+    grid-template-areas: 
+    "a a a a a a b b b b b b"
+    "c c c d d d d d d e e e"
+    "f f f f g g g g g g g g ";
+    gap: 20px;
+}
+
+.image1{
+    grid-area: a;
+}
+.image2{
+    grid-area: b;
+}
+.image3{
+    grid-area: c;
+}
+.image4{
+    grid-area: d;
+}
+.image5{
+    grid-area: e;
+}
+.image6{
+    grid-area: f;
+}
+.image7{
+    grid-area: g;
+}
+
+
+
+
+.image1,
+.image2,
+.image3,
+.image4,
+.image5,
+.image6,
+.image7 {
+    border-radius: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.image1 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/maldives.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.image2 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/indonesia.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.image3 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/srilanka.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.image4 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/northamerica.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.image5 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/kashmir.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.image6 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/maldives.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.image7 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/bandarban.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+/* choose  area css end here  */
+
+/* why us  area css start here  */
+.why-us-header h1 {
+    font-size: 40px;
+    color: #131318;
+    font-weight: 800;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+
+.why-us-header>p {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.first2card {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.why-us-card {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+
+.why-us-card img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    padding-bottom: 32px;
+}
+
+.why-us-card h3 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #131318;
+    padding-bottom: 32px;
+    text-transform: capitalize;
+}
+
+.active {
+    background: rgba(41, 206, 246, 0.05);
+
+}
+
+.last-card {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+}
+
+/* why us  area css end here  */
+
+/* delas and discount  area css start here  */
+.delas-header h1 {
+    font-size: 40px;
+    color: #131318;
+    font-weight: 800;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+
+.delas-header>p {
+    padding-bottom: 30px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.deals-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo-text-area {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding-bottom: 24px;
+}
+
+.logo-text i {
+    color: #ff5400;
+    font-size: 20px;
+}
+
+.logo-text>p {
+    font-size: 16px;
+    color: #5a5a5d;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.text-right h1 {
+    font-size: 24px;
+    color: #131318;
+    font-weight: 800;
+    text-transform: capitalize;
+    padding-bottom: 16px;
+}
+
+.text-right>p {
+    padding-bottom: 16px;
+}
+
+.text-right h3 {
+    color: #ff5400;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: capitalize;
+    padding-bottom: 24px;
+}
+
+.deals-content {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.text-right {
+    position: absolute;
+    top: 20%;
+    bottom: 20%;
+    left: 50%;
+    right: 8%;
+    border-radius: 16px;
+    border: 2px solid red;
+    background: rgba(255, 255, 255, 0.80);
+    padding-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+
+}
+
+.text-right>button {
+    margin-bottom: 500px;
+}
+
+.left {
+    left: 8%;
+    right: 50%;
+}
+
+.see-all-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.see-all-btn>button {
+    width: 220px;
+    height: 58px;
+    border: none;
+    background-color: #ff5400;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* delas and discount  area css end here  */
+
+
+/* simple place  area css start here  */
+
+.simple-place {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.simple-place-left h1 {
+    font-size: 40px;
+    color: #131318;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 60px;
+    padding-bottom: 24px;
+}
+
+.simple-place-left>p {
+    padding-bottom: 24px;
+}
+
+.simple-place-left ul {
+    padding-left: 26px;
+    padding-bottom: 16px;
+}
+
+.simple-place-left ul li {
+    font-size: 16px;
+    padding-bottom: 16px;
+    font-weight: 700;
+    color: #131318;
+    line-height: 26px;
+}
+
+.simple-place-right {
+    position: relative;
+}
+
+.right-text-place {
+    position: absolute;
+    top: 50%;
+    left: 33%;
+}
+
+.right-text-place h3 {
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 20px;
+    text-align: center;
+    line-height: 28px;
+
+}
+
+/* simple place  area css end here  */
+
+/* newsletter  area css start here  */
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px ; 
+    margin-bottom: 100px;
+}
+
+.newsletter-left {
+    padding: 40px;
+    border-radius: 16px;
+    background-color: #fff;
+    border: 1px solid #ff5400;
+}
+
+.form-header h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 16px;
+}
+
+.form-header>p {
+    width: 80%;
+    padding-bottom: 24px;
+}
+
+hr {
+
+    background: rgba(19, 19, 24, 0.10);
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.form-new {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 24px;
+    gap: 16px;
+}
+
+.form-new input {
+    width: 100%;
+}
+
+.form-new input {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+} 
+
+.newsletter-left button{
+    width: 100%;
+    height: 52px;
+    background-color:#ff5400 ;
+    border: none;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.new-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.newsletter-right{
+    position: relative;
+}
+.saver-tag{
+    background-color: #ff5400;
+    color: #fff;
+    width: 324px;
+    height: 120px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:5px ;
+    transform: rotate(-19.62deg);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    bottom: 0%;
+}
+.saver-tag p{
+    font-size: 24px;
+    font-weight: 400;
+}
+.saver-tag h1{
+   font-size: 32px;
+   font-weight: 800; 
+}
+
+/* newsletter  area css end here  */
+
+/* footer  area css end here  */
+.footer-area{
+    background-color:rgba(19, 19, 24, 0.05);
+    padding:110px 230px ;
+}
+
+.logo-text-header a {
+    text-decoration: none;
+}
+
+.logo-text-header a h1 {
+    font-size: 800;
+    text-transform: capitalize;
+    color: #131318;
+    font-size: 36px;
+}
+.footer>p{
+    text-align: center;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.footer-logo a{
+    text-decoration: none;
+}
+.footer-logo a i{
+    color: #131318;
+    transition: .2s;
+    font-size: 20px;
+}
+
+.footer-logo a i:hover{
+    color: #ff5400;
+}
+.footer >p{
+    text-transform: capitalize;
+}
+/* footer  area css end here  */
